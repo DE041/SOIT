@@ -1,0 +1,393 @@
+@charset "UTF-8";
+
+html {
+    font-size: 100%;
+}
+
+body {
+    font-family: Indie Flower, NanumGothic, "맑은고딕", MalgunGothic, "Apple SD Gothic Neo", sans-serif;
+    line-height: 1.7;
+    color: #432;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.logo {
+    width: 210px;
+}
+
+.main-nav {
+    display: flex;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    list-style: none;
+    align-items: center;
+}
+
+.header-div {
+    display: flex;
+    align-items: center;
+}
+
+.header-div h1 a {
+    height: 100%;
+    display: flex;
+    text-align: center;
+}
+
+.main-nav li {
+    margin-left: 36px;
+}
+
+.main-nav a {
+    color: #432;
+}
+
+.main-nav a:hover {
+    color: rgba(68, 51, 34, 0.5)
+}
+
+.page-header {
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, .3);
+
+    background-color: white;
+}
+
+.wrapper {
+    margin: 0 auto;
+    padding: 0 4%;
+}
+
+.home-content {
+    text-align: center;
+    margin-top: 10%;
+}
+
+.login-content {
+    text-align: center;
+}
+
+.home-content p {
+    font-size: 1.65rem;
+    margin: 10px 0 42px;
+}
+
+.login-sign {
+    font-size: 1rem;
+    color: rgb(0, 60, 255);
+}
+
+.login-notice {
+    margin-top: 85px;
+}
+
+.page-title {
+    font-size: 5rem;
+    font-family: 'Indie Flower', serif;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+.login-title {
+    font-size: 5rem;
+    font-family: 'Indie Flower', serif;
+    text-transform: uppercase;
+    font-weight: normal;
+    
+    height: 110px;
+}
+
+.button {
+    font-size: 1.375rem;
+    background: #432;
+    color: #fff;
+    border-radius: 5px;
+    padding: 18px 32px;
+    
+    transition: .2s;
+}
+
+.login {
+    font-size: 1rem;
+    color: #432;
+    border-radius: 20px;
+    text-align: center;
+    height: 30px;
+
+    display: flex;
+    align-items: center;
+    padding: 20px 10px;
+    border: 1px solid #432;
+
+    transition: .2s;
+}
+
+.login:hover {
+    background-color: #432;
+    color: white;
+}
+
+.button:hover {
+    background: rgba(68, 51, 34, 0.8);
+}
+
+.big-bg {
+    background: url(../images/Italy.jpg);
+
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+#home {
+    background-size: cover;
+    background-blend-mode: luminosity;
+    min-height: 100vh;
+}
+
+#home .page-title {
+    text-transform: none;
+
+    margin-top: -85px;
+}
+
+form div {
+    margin-bottom: 14px;
+}
+
+label {
+    font-size: 1.125rem;
+    margin-bottom: 10px;
+    display: block;
+}
+
+input[type="email"],
+input[type="password"],
+input[type="text"] {
+    background: rgba(68, 51, 34, 0.15);
+    border: 1px #432 solid;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    max-width: 240px;
+}
+
+input[type="text"] {
+    width: 100%;
+    max-width: 1200px;
+}
+
+input[type="submit"] {
+    border: none;
+    cursor: pointer;
+    line-height: 1;
+
+    margin-left: 5px;
+}
+
+input[type="submit"]:hover {
+    background-color: white;
+    color: #432;
+    border: 1px solid #432;
+}
+
+.login-form {
+    margin-top: 30px;
+}
+
+#login-store {
+    display: flex;
+    justify-content: center;
+}
+
+#store {
+    position: relative;
+    left: 7px;
+    top: 7px;
+}
+
+.lyrics-form {
+    display: flex;
+
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.lyrics-button {
+    font-size: 1rem;
+    background: #432;
+    color: #fff;
+    border-radius: 5px;
+    padding: 9px 16px;
+    
+    transition: .2s;
+
+    margin-top: 0;
+}
+
+aside {
+    margin-right: 15%;
+}
+
+.lyrics-contents {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-bottom: 5%;
+}
+
+.info-contents {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-bottom: 5%;
+}
+
+.lyrics-info {
+    position: relative;
+    padding-top: 4px;
+    margin-bottom: 40px;
+}
+
+.lyrics-title {
+    font-family: Indie Flower, serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+}
+
+.lyrics-data, .lyrics-cat {
+    font-size: 0.85rem;
+}
+
+.lyrics {
+    font-size: 1rem;
+}
+
+.lyrics-korean {
+    font-size: 0.85rem;
+}
+
+.Una-Voce, .Sempre, .Quando {
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.Una-Voce p, .Sempre p, .Quando p {
+    font-size: 0.85rem;
+}
+
+.lyrics-name {
+    font-size: 1.5rem;
+    color: #432;
+}
+
+.lyrics-name:hover {
+    color: rgba(68, 51, 34, 0.5);
+}
+
+.page-number {
+    margin-top: 30px;
+    text-align: center;
+
+    font-size: 1.25rem;
+    font-family: 'Indie Flower', serif;
+}
+
+.sub-title {
+    width: 200px;
+
+    font-size: 1.375rem;
+    padding: 0 8px 8px;
+    border-bottom: 2px #432 solid;
+    font-weight: normal;
+}
+
+.info-memo {
+    margin-left: 100px;
+}
+
+aside p {
+    padding: 12px 10px;
+
+    border: 1px solid #432;
+}
+
+.sub-menu{
+    margin-bottom: 60px;
+    list-style: none;
+}
+
+.sub-menu li{
+    border-bottom: 1px #ddd solid;
+}
+
+.sub-menu a{
+    color: #432;
+    padding: 10px;
+    display: block;
+}
+
+.sub-menu a:hover{
+    color: rgba(68, 51, 34, 0.5);
+}
+
+section header h1 {
+    margin-top: 50px;
+    margin-left: 150px;
+}
+
+#youtube {
+    margin-left: 7%;
+}
+
+.sns1, .sns2 {
+    display: flex;
+    justify-content: center;
+
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+.sns-box {
+    margin-right: 100px; 
+}
+
+iframe {
+    width: 100%;
+    margin-top: 25px;
+}
+
+footer {
+    background: #432;   
+    text-align: center;
+    padding: 26px 0;
+
+    margin-top: 25px;
+}
+
+footer p {
+    color: #fff;
+    font-size: 1rem;
+}

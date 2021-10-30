@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>Login | SOIT</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Indie Flower" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+    <header class="login-header wrapper">
+        <div class="header-div">
+            <h1><a href="home.html"><img class="logo" src="images/logo.png" alt="SOIT Home"></a></h1>
+        </div>
+    </header>
+
+    <div class="login-content wrapper">
+        <h2 class="login-title">Log In</h2>
+        <div class="login-sign">
+            <p>계정이 없으신가요? 새 계정 만들기</p>
+            <p>비밀번호 또는 이메일 찾기</p>
+        </div>
+        
+        <form action="#" class="login-form">
+            <div class="page-login">
+                <div>
+                    <label for="email">이메일</label>
+                    <input type="email" id="email" name="your-email">
+                </div>
+    
+                <div>
+                    <label for="password">비밀번호</label>
+                    <input type="password" id="password" name="your-password">
+                </div>
+
+                <div id="login-store">
+                    <label for="store">내 계정 기억하기</label>
+                    <input type="checkbox" id="store" name="your-store">
+                </div>
+            </div>
+
+            <input type="submit" class="button" value="로그인">
+        </form>
+
+        <div class="login-notice">
+            <p>*로그인 시 이용약관, SOIT 이메일 및 업데이트 수신에 동의</p>
+            <p>하며 개인정보 처리방침 내용을 인정하는 것으로 간주됩니다. </p>
+        </div>
+    </div><!-- /.home-content -->
+
+    <footer>
+        <div class="wrapper">
+            <p><small>&copy; 2021 Soit</small></p>
+        </div>
+    </footer>
+
+    <script src="./main.js"></script>
+</body>
+</html>
